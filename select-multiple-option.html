@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select</title>
+	<link href="select2.min.css" rel="stylesheet" />
+</head>
+<body>
+	<select class="js-example-basic-single" name="state[]" multiple="multiple" style="width: 300px;">
+		<option value="">Select</option>
+		<option value="AL">Bangladesh</option>
+		<option value="AL">Afganisthan</option>
+		<option value="AL">Soudi Arabia</option>
+		<option value="AL">Sri Lanka</option>
+		<option value="AL">Alabama</option>
+		<option value="WY">Wyoming</option>
+	</select>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script src="select2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('.js-example-basic-single').select2();
+		});
+	</script>
+</body>
+</html>
